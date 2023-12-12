@@ -1,0 +1,52 @@
+
+<div class="card p-3 mt-3 back-p">
+    <h1 class="text-white text-center">Criar novo fornecedor</h1>
+    <form class="row g-3 needs-validation" novalidate [formGroup]="form">
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">Nome do fornecedor</label>
+            <input type="text" class="form-control bg-white" id="nome" 
+            placeholder="Nome dos fornecedores" formControlName="nome">
+            <div class="invalid-feedback">
+                Informe o nome do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="cnpj" class="form-label">Cnpj do fornecedor</label>
+            <input type="text" class="form-control bg-white" id="cnpj" 
+            placeholder="Cnpj dos fornecedores" formControlName="cnpj">
+            <div class="invalid-feedback">
+                Informe o cnpj do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="ie" class="form-label">Ie do fornecedor</label>
+            <input type="text" class="form-control bg-white" id="ie" 
+            placeholder="Ie dos fornecedores" formControlName="ie">
+            <div class="invalid-feedback">
+                Informe o ie do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="endereco" class="form-label">Endereço do fornecedor</label>
+            <input type="text" class="form-control bg-white" id="endereco" 
+            placeholder="Endereco dos fornecedores" formControlName="endereco">
+            <div class="invalid-feedback">
+                Informe o endereço do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="email" class="form-label">Email do fornecedor</label>
+            <input type="text" class="form-control bg-white" id="email" 
+            placeholder="Email dos fornecedores" formControlName="email">
+            <div class="invalid-feedback">
+                Informe o email do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <button class="btn btn-primary me-2" type="submit" (click)="Salvar()">Salvar</button>
+            <button class="btn btn-danger" type="submit" (click)="Cancelar()">Cancelar</button>
+        </div>
+    </form>
+</div>
+
+

@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #000000, #333333, #444444, #666666,  #999999);
+}
+
+nav{
+    height: 70px;
+    margin-bottom: 100px;
+}
+
+th{
+    border: 1px solid white;
+}
+
+label{
+    color: white;
+}
+
+.back-p{
+    background: rgba(0, 0, 0, 0.5); /* Cor escura com transparência */
+    backdrop-filter: blur(10px); /* Adiciona o efeito de blur */
+    z-index: 1;
+}
+
+// backgrounds:
+
+
+.back{
+    background: rgba(0, 0, 0, 0.5); /* Cor escura com transparência */
+    backdrop-filter: blur(10px); /* Adiciona o efeito de blur */
+    z-index: 1;
+}
+
+// cliente
+
+.back-cliente{
+    background-color: #C8EA89;
+}
+
+.back-btn-cliente{
+    background-color: #f5f5dc;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-cliente:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+//fornecedor
+
+.back-fornecedor{
+    background-color: #CB6CE6;
+}
+
+.back-btn-fornecedor{
+    background-color: #e1cafa;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-fornecedor:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+//funcionario
+
+.back-funcionario{
+    background-color: #E66C6C;
+}
+
+.back-btn-funcionario{
+    background-color: #ffafaf;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-funcionario:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+//departamento
+
+.back-departamento{
+    background-color: #eae689;
+}
+
+.back-btn-departamento{
+    background-color: #fffdd7;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-departamento:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+//empresa
+
+.back-empresa{
+    background-color: #78abc6;
+}
+
+.back-btn-empresa{
+    background-color: #b6ddf1;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-empresa:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+//projeto
+
+.back-projeto{
+    background-color: #ffca70;
+}
+
+.back-btn-projeto{
+    background-color: #fff0d8;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+.back-btn-projeto:hover{
+    background-color: gainsboro;
+    transition: 1s;
+}
+
+
+
+
+

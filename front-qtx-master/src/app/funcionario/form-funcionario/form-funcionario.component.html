@@ -1,0 +1,52 @@
+
+<div class="card p-3 mt-3 back-p">
+    <h1 class="text-white text-center">Criar novo funcionário</h1>
+    <form class="row g-3 needs-validation" novalidate [formGroup]="form">
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">Nome do funcionário</label>
+            <input type="text" class="form-control bg-white" id="nome" 
+            placeholder="Nome dos funcionarios" formControlName="nome">
+            <div class="invalid-feedback">
+                Informe o nome do funcionário!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="cargo" class="form-label">Cargo do funcionário</label>
+            <input type="text" class="form-control bg-white" id="cargo" 
+            placeholder="cargo dos funcionarios" formControlName="cargo">
+            <div class="invalid-feedback">
+                Informe o cargo do funcionário!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="salario" class="form-label">Salário do funcionário</label>
+            <input type="text" class="form-control bg-white" id="salario" 
+            placeholder="salario dos funcionarios" formControlName="salario">
+            <div class="invalid-feedback">
+                Informe o salário do funcionário!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="area" class="form-label">Endereço do funcionário</label>
+            <input type="text" class="form-control bg-white" id="area" 
+            placeholder="area dos funcionarios" formControlName="area">
+            <div class="invalid-feedback">
+                Informe o endereço do funcionário!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="local" class="form-label">Local do funcionário</label>
+            <input type="text" class="form-control bg-white" id="local" 
+            placeholder="local dos funcionarios" formControlName="local">
+            <div class="invalid-feedback">
+                Informe o local do funcionário!!!
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <button class="btn btn-primary me-2" type="submit" (click)="Salvar()">Salvar</button>
+            <button class="btn btn-danger" type="submit" (click)="Cancelar()">Cancelar</button>
+        </div>
+    </form>
+</div>
+
+

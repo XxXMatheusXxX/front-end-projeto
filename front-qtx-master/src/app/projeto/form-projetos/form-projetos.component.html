@@ -1,0 +1,52 @@
+
+<div class="card p-3 mt-3 back-p">
+    <h1 class="text-white text-center">Criar novo projeto</h1>
+    <form class="row g-3 needs-validation" novalidate [formGroup]="form">
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">Nome do projeto</label>
+            <input type="text" class="form-control bg-white" id="nome" 
+            placeholder="Nome dos projetos" formControlName="nome">
+            <div class="invalid-feedback">
+                Informe o nome do projeto!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="descricao" class="form-label">Descrição do projeto</label>
+            <input type="text" class="form-control bg-white" id="descricao" 
+            placeholder="descricao dos projetos" formControlName="descricao">
+            <div class="invalid-feedback">
+                Informe a descrição do projeto!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="participantes" class="form-label">Participantes do projeto</label>
+            <input type="text" class="form-control bg-white" id="participantes" 
+            placeholder="participantes dos projetos" formControlName="participantes">
+            <div class="invalid-feedback">
+                Informe o participantes do projeto!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="responsavel" class="form-label">Endereço do projeto</label>
+            <input type="text" class="form-control bg-white" id="responsavel" 
+            placeholder="responsavel dos projetos" formControlName="responsavel">
+            <div class="invalid-feedback">
+                Informe o endereço do projeto!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="custo" class="form-label">Custo do projeto</label>
+            <input type="text" class="form-control bg-white" id="custo" 
+            placeholder="custo dos projetos" formControlName="custo">
+            <div class="invalid-feedback">
+                Informe o custo do projeto!!!
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <button class="btn btn-primary me-2" type="submit" (click)="Salvar()">Salvar</button>
+            <button class="btn btn-danger" type="submit" (click)="Cancelar()">Cancelar</button>
+        </div>
+    </form>
+</div>
+
+
